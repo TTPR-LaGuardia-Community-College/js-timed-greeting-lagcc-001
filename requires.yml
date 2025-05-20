@@ -1,0 +1,12 @@
+# A list of javascript files required for the project, in dependency order
+javascripts:
+  files:
+    - lib/isNight.js
+    - lib/greeting.js
+    - lib/isMorning.js
+    - lib/isAfternoon.js
+  specs:
+    - spec/greeting.spec.js
+    - spec/isNight.spec.js
+    - spec/isMorning.spec.js
+    - spec/isAfternoon.spec.js

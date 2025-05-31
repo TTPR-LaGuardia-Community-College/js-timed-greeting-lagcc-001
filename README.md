@@ -6,6 +6,29 @@ languages: javascript
 tags: functions, arguments, invoking functions
 ---
 
+# JS Timed Greeting by Sinem Kilicdere Moschos
+
+This project is a simple JavaScript exercise that gives a greeting based on the time of day, using military time (0–23 hours).
+
+
+- `isMorning(time)` returns true if the hour is between 6 and 11
+- `isAfternoon(time)` returns true if the hour is between 12 and 19
+- `isNight(time)` returns true if the hour is between 20 and 23 or between 0 and 5
+- `greeting(time)` checks the time and returns one of the following strings:
+  - "Good Morning!"
+  - "Good Afternoon!"
+  - "Good Night!"
+
+The `greeting` function uses the other three helper functions to decide which greeting to return.
+
+To get started:
+
+1. Open a terminal in this project folder.
+2. Run `npm install` to install the required packages.
+3. Run the tests with one of these commands:
+
+
+
 # Timed Greeting
 
 ## Instructions
